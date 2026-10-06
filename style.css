@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #f4f7fe;
+	color: #2b2d42;
+	padding: 20px 30px;
+}
+
+/* Container Tengah */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  color: #4361ee;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+/* Card Wrapper (Kotak Putih Melayang) */
+.card {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #3f3d56;
+  border-bottom: 2px solid #edf2f4;
+  padding-bottom: 8px;
+}
+
+/* Form Input */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dcdfe6;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #4361ee;
+}
+
+/* Tombol */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Menggunakan kelas .primary sesuai keinginanmu */
+.primary {
+  width: 100%;
+  background-color: #4361ee;
+  color: white;
+}
+
+/* List Tugas */
+.task-list {
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-left: 4px solid #4361ee;
+}
+
+.task-info h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.task-info p {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.task-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.done {
+  background-color: #2ec4b6;
+  color: white;
+  font-size: 0.8rem;
+  padding: 6px 10px;
+}
+
+.delete {
+  background-color: #e63946;
+  color: white;
+  font-size: 0.8rem;
+  padding: 6px 10px;
+}

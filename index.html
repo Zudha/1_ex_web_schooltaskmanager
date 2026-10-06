@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School Task Manager</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<h1>School Task Manager</h1>
+			<p>✨ Organize your Daily Study and Assignments!! ✨</p>
+		</header>
+	
+	<div class="content">
+	<!-- Section 1: Form Input -->
+		<section class="card">
+		<h2>Tambahkan Tugas</h2>
+			<form id="task-form">
+				<div class="form-group">
+					<label for="task-title">Judul Tugas</label>
+					<input type="text" id="task-title" placeholder="Misal: Tugas Membuat Makalah" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="subject">Mata Pelajaran</label>
+					<input type="text" id="subject" placeholder="Misal: B. Indonesia" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="deadline">Waktu Pengumpulan Tugas</label>
+					<input type="date" id="deadline" required>
+				</div>
+				
+				<button type="submit" class="primary">Save Task</button>
+			</form>
+		</section>
+		
+		<!-- Section 2: Daftar Tugas -->
+		<section class="card">
+			<h2>Daftar Tugas</h2>
+			<ul id="task-list" class="task-list">
+			<!-- Diisi via JavaScript nanti -->
+			</ul>
+		</section>
+		
+	</div>
+	</div>
+		<script src="script.js"></script>
+</body>
+</html>
